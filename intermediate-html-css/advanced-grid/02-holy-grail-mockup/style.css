@@ -5,6 +5,8 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .container div {
@@ -17,6 +19,9 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-area: 1 / 1 / 1 / -1;
 }
 
 .menu ul,
@@ -26,6 +31,7 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
